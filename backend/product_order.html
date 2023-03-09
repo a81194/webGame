@@ -17,13 +17,6 @@
 
   <!-- harder sidebar footer import -->
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script>
-    $(document).ready(function () {
-      $("#header").load("header.html");
-
-      $("#footer").load("footer.html");
-    });
-  </script>
 </head>
 
 <body>
@@ -683,6 +676,7 @@
             Header start
         ***********************************-->
     <div id="header"></div>
+    <script>$("#header").load("header.html");</script>
     <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -904,6 +898,7 @@
             Footer start
         ***********************************-->
     <div id="footer"></div>
+    <script>$("#footer").load("footer.html");</script>
     <!--**********************************
             Footer end
         ***********************************-->
