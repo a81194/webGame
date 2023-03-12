@@ -67,6 +67,10 @@ h6 {
   font-weight: 700;
   margin: 0;
   line-height: 1.2;
+  
+}
+.slider-small-title,.slider-large-title{
+  background-color:  rgba(99, 96, 97, 0.5);
 }
 
 p {
@@ -4879,6 +4883,8 @@ button,
   margin: 0 auto;
   max-width: 1480px;
   padding: 0 15px;
+
+  
 }
 
 @media (max-width: 1800px) {
@@ -5107,11 +5113,13 @@ button,
 .slide-1 {
   background-image: url("../image/1-1.jpg");
   background-color: rgba(215, 177, 190, 0.9);
+
 }
 
 .slide-2 {
   background-image: url("../image/1-2.jpg");
   background-color: rgba(215, 177, 190, 0.9);
+
 }
 
 .slide-3 {
